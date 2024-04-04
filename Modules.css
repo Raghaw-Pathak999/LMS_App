@@ -1,0 +1,175 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #5F4B8BFF;
+}
+
+/* Header styles */
+header {
+   text-shadow: 3px 1px 2.3px  #3d3d3d;
+   background-image: linear-gradient(200deg, #bf4fc9,  #d697d5, #c4a04c);
+   color: #252525;
+   padding: 10px;
+   letter-spacing: 4px;
+   font-family: cursive;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav{
+    background-color: #7b682f;
+    padding: 15px 20px;
+    border-radius: 20px 20px 80px 80px;
+    margin: 0px 250px;
+    margin-top: 15px;
+}
+
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    gap: 70px;
+}
+
+nav ul li a {
+    font-family: cursive;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+nav ul li a:hover{
+    color: #000000;
+}
+
+/* .registerSections{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    gap: 40px;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+} */
+
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Main content styles */
+main {
+    animation: fadeIn  1.1s ease-in-out;
+    padding: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-200px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.HeadingMain{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 3px;
+    text-shadow: 2px 3.5px #000000;
+    font-family: Roboto;
+    animation: fadeInOut 2s infinite ease-in-out;
+}
+
+@keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+/* Section styles */
+section {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px #ffffff;
+}
+
+/* Footer styles */
+footer {
+    background-color: #000000;
+    color: #f7f7f7;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Lessons section styles */
+#lessons {
+    background-color: #E69A8DFF;
+    color: #5F4B8BFF;
+    animation: fadeIn 1.1s ease-in-out;
+    padding: 20px;
+    border-radius: 5px 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.lesson {
+    margin-bottom: 20px;
+}
+
+.lesson > ul > li{
+    cursor: pointer;
+    list-style: none;
+}
+
+.lesson > ul > li:hover{
+    color: #ffffff;
+}
+
+.lesson h3 {
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 5px;
+    color: black;
+}
+
+.lesson p {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lesson ul {
+    margin-left: 40px;
+}
+
+.lesson ul li {
+    margin-bottom: 5px;
+}
